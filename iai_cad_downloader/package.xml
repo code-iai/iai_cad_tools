@@ -1,0 +1,22 @@
+<package>
+  <name>iai_cad_downloader</name>
+  <version>0.0.1</version>
+  <description>
+    This package provides a downloader to retrieve cad models
+    shared on the cad-model svn-server of the Institute of
+    Artificial Intelligence, Universitaet Bremen, Germany.
+  </description>
+
+  <maintainer email="georg.bartels@cs.uni-bremen.de">Georg Bartels</maintainer>
+  <author email="georg.bartels@cs.uni-bremen.de">Georg Bartels</author>
+
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/code-iai/iai_cad_tools</url>
+  <url type="bugtracker">https://github.com/code-iai/iai_cad_tools/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+
+</package>
