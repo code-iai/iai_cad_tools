@@ -3,6 +3,10 @@ iai_cad_tools
 
 A collection of tools to work with or manage CAD models.
 
+
+## Browsing the CAD model server
+You can find the IAI cad model SVN server at http://svn.ai.uni-bremen.de/svn/cad_models/
+
 ## Downloading CAD models
 The IAI group shares and versions CAD models via a central svn 
 server. The ROS package `iai_cad_downloader` holds a python script
