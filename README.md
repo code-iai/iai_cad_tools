@@ -9,7 +9,7 @@ You can find the IAI cad model SVN server at http://svn.ai.uni-bremen.de/svn/cad
 
 ## Downloading CAD models
 The IAI group shares and versions CAD models via a central svn 
-server. The ROS package `iai_cad_downloader` holds a python script
+server. The ROS package [iai_cad_downloader](https://github.com/code-iai/iai_cad_tools/tree/master/iai_cad_downloader) holds a python script
 `download_cad_models` which downloads a set of subdirectories from that
 CAD model svn server. 
 
