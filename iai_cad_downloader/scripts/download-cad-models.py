@@ -31,7 +31,7 @@ if __name__ == '__main__':
     usage = "usage: %prog [options] [sub-dirs]"
     parser = OptionParser(usage)
     parser.add_option("-s", "--source", dest="source",
-                      default="svn+ssh://svn@svn.ai.uni-bremen.de/cad_models",
+                      default="http://svn.ai.uni-bremen.de/svn/cad_models",
                       help="svn server address to download from")
     parser.add_option("-d", "--dest", dest="destination",
                       default="./meshes",
